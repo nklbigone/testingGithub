@@ -1,0 +1,82 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+}
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+}
+/* from here */
+header {
+  height: 50px;
+  background-color: #2B2B2B
+}
+header ul {
+
+}
+header ul a {
+  color: #fff;
+  text-decoration: none;
+}
+header li {
+  list-style: none;
+  padding: 15px;
+}
+header ul:after {
+
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* Up to here is the implementation of the header part */
+.main-header img {
+/* Implementation of main image (white “Achieve” text image) */
+}
+.about {
+/* About Implementation of Achieve part */
+}
+/* from here */
+.function {
+  background-color: #D3D3D3;
+}
+    .function h1 {
+  font-size: 1.5rem;
+  padding-top: 15px;
+}
+.function-images {
+height: 100%;
+margin: 20px;
+margin-left: 300px;
+            }
+.function-image {
+  float: left;
+  margin: 20px;
+  }
+/* Implementation of footer part */
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.about h1{
+  font-size: 1.5rem;
+}
+.about p{
+  font-size: 0.8rem;
+}
+footer {
+  height: 70px;
+  background-color: #283A4B;
+  font-size: 0.8rem;
+  text-align: center;
+padding: 15px;
+}
